@@ -5,16 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CumpleanosComponent } from './cumpleanos/cumpleanos.component';
+import { EmoticonParticlesComponent } from './emoticon-particles/emoticon-particles.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CumpleanosComponent
+    CumpleanosComponent,
+    EmoticonParticlesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

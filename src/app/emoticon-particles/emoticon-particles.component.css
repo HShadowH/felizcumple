@@ -1,0 +1,39 @@
+.particles-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.particle {
+  position: absolute;
+  user-select: none;
+  will-change: transform, opacity; /* Optimización para animaciones */
+}
+
+
+/* Animación para mover las partículas de manera aleatoria */
+@keyframes moveRandomly {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(-20px, 20px) rotate(90deg);
+  }
+  50% {
+    transform: translate(20px, -20px) rotate(180deg);
+  }
+  75% {
+    transform: translate(-20px, -20px) rotate(270deg);
+  }
+  100% {
+    transform: translate(20px, 20px) rotate(360deg);
+  }
+}
+
+/* Animación para cambiar la opacidad */
+@keyframes fade {
+  0% { opacity: 0.5; }
+  20%, 80% { opacity: 1; }
+  100% { opacity: 0; }
+}
