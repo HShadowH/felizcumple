@@ -46,18 +46,7 @@
   animation: fadeIn 3s ease-in-out infinite;
   color: #03A9F4; /* Azul claro */
 }
-@keyframes zoomInParticles {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05); /* Un efecto de zoom más sutil para las partículas */
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
+ 
 
 .particles-container {
   position: absolute; /* Cambiado a absoluto */
@@ -66,53 +55,6 @@
   overflow: hidden;
   z-index: 1; /* Partículas detrás del texto */
   animation: scaleUp 5s ease-in-out infinite;
-}
-@keyframes changeColor {
-  0% { background-color: #e70303; } /* Rojo */
-  25% { background-color: #03A9F4; } /* Azul claro */
-  50% { background-color: #ff0; } /* Amarillo */
-  75% { background-color: #ff69b4; } /* Rosa */
-  100% { background-color: #e70303; } /* Rojo */
-}
-
-.particle {
-  opacity: 1; /* Aumentar la opacidad para mayor visibilidad */
-  width: 10px; /* Ajustar el tamaño según sea necesario */
-  height: 10px;
-  position: absolute;
-  border-radius: 50%;
-  animation: float 5s ease-in-out infinite, changeColor 10s infinite;
-}
-
-/* Ejemplo de animación, ajusta según sea necesario */
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
-}
-
-/* Asegúrate de dar diferentes tamaños y posiciones iniciales a tus partículas */
-.particle:nth-child(1) {
-  width: 5px;
-  height: 5px;
-  top: 20%;
-  left: 25%;
-  animation-duration: 4s;
-}
-
-.particle:nth-child(2) {
-  width: 8px;
-  height: 8px;
-  top: 70%;
-  left: 80%;
-  animation-duration: 6s;
-}
-
-.particle:nth-child(3) {
-  width: 3px;
-  height: 3px;
-  top: 50%;
-  left: 10%;
-  animation-duration: 8s;
 }
 
 

@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CumpleanosComponent } from './cumpleanos/cumpleanos.component';
 import { EmoticonParticlesComponent } from './emoticon-particles/emoticon-particles.component';
+import { ParticlesComponent } from './particles/particles.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CumpleanosComponent,
-    EmoticonParticlesComponent
+    EmoticonParticlesComponent,
+    ParticlesComponent
   ],
   imports: [
     BrowserModule,
