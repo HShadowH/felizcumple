@@ -15,7 +15,7 @@ import { IndexComponent } from './components/index/index.component';
     CumpleanosComponent,
     EmoticonParticlesComponent,
     ParticlesComponent,
-    IndexComponent
+    IndexComponent,
   ],
   imports: [
     BrowserModule,
