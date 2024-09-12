@@ -3,3 +3,8 @@ html, body {
   margin: 0; /* Elimina márgenes predeterminados */
   height: 100%; /* Asegúrate de que toman toda la altura de la ventana */
 }
+
+
+.mami{
+  width: 150px;
+}
